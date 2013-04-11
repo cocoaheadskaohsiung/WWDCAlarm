@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    NSURL *wwdcUrl;
+}
+
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+- (IBAction)clickRefresh:(id)sender;
 
 @end
