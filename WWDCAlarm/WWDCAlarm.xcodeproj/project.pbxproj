@@ -34,6 +34,7 @@
 		49935E501716DCB900FCAE14 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 49935E471716DCB900FCAE14 /* UIImageView+AFNetworking.m */; };
 		49935E521716DCFA00FCAE14 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49935E511716DCFA00FCAE14 /* SystemConfiguration.framework */; };
 		49935E541716DD1600FCAE14 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49935E531716DD1600FCAE14 /* MobileCoreServices.framework */; };
+		B11859B71734A709000E0006 /* URLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B11859B61734A709000E0006 /* URLConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,8 @@
 		49935E471716DCB900FCAE14 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		49935E511716DCFA00FCAE14 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		49935E531716DD1600FCAE14 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B11859B51734A709000E0006 /* URLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLConnection.h; sourceTree = "<group>"; };
+		B11859B61734A709000E0006 /* URLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,7 @@
 		49935DFF1716D94F00FCAE14 /* WWDCAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				B11859B41734A709000E0006 /* Utility */,
 				49935E081716D94F00FCAE14 /* AppDelegate.h */,
 				49935E091716D94F00FCAE14 /* AppDelegate.m */,
 				49935E111716D94F00FCAE14 /* ViewController.h */,
@@ -222,6 +226,15 @@
 			);
 			path = AFNetworking;
 			sourceTree = SOURCE_ROOT;
+		};
+		B11859B41734A709000E0006 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B11859B51734A709000E0006 /* URLConnection.h */,
+				B11859B61734A709000E0006 /* URLConnection.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -345,6 +358,7 @@
 				49935E4E1716DCB900FCAE14 /* AFURLConnectionOperation.m in Sources */,
 				49935E4F1716DCB900FCAE14 /* AFXMLRequestOperation.m in Sources */,
 				49935E501716DCB900FCAE14 /* UIImageView+AFNetworking.m in Sources */,
+				B11859B71734A709000E0006 /* URLConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +539,7 @@
 				49935E301716D94F00FCAE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49935E311716D94F00FCAE14 /* Build configuration list for PBXNativeTarget "WWDCAlarmTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +548,7 @@
 				49935E331716D94F00FCAE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
